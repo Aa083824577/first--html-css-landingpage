@@ -1,0 +1,75 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body {
+    margin: auto;
+    background-image: url(/websire-1/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.selector {
+    max-width: 360px;
+    width: 620px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+h1 {
+    color: lightseagreen;
+    font-size: 40px;
+    padding: 15px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+
+button {
+    width:250px;
+    font-size: 1.1em;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    background: none;
+}
+.selector:hover{
+    transform: scale(1.1);
+
+
+
+}
+input:hover{
+    transform:scale(1.2) ;
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color:lightskyblue ;
+    cursor:pointer;
+
+
+
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/websire-1/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.nav {
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.su{
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 5px 12px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.main{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translateY(-50%);
+}
+.sum{
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 5px 12px;
+    cursor: pointer;
+    font-size: 1em;
+
+}
+small{
+    font-size:  17px; 
+    text-transform: capitalize;
+    letter-spacing: 1.8px;
+}
+h1{
+    font-size: 63px;
+    margin: 10px 0px 30px ;
+}
+.sum:hover{
+    transform: scale(1.1);
+    color:lightseagreen ;
+}
+.su:hover{
+    transform: scale(1.1);
+    color:lightgreen ;
+
+
+}
