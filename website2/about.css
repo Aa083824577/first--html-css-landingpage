@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/3334896.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    height: 13vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(225, 225, 225, 0.127);
+    backdrop-filter: blur(7px);
+    border-radius: 60px;
+    position: absolute;
+    top: 2%;
+}
+
+.about-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.about-content h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    background-color: rgba(225, 225, 225, 0.127);
+    backdrop-filter: blur(7px);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.about-text p {
+    color: azure;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-text h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.team-member {
+    background-color: rgba(225, 225, 225, 0.127);
+    backdrop-filter: blur(7px);
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    color: azure;
+    font-size: 15px;
+} 

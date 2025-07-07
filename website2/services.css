@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 130vh;
+    background-image: url(/3334896.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+
+nav {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(225, 225, 225, 0.127);
+    backdrop-filter: blur(7px);
+    border-radius: 15px;
+    border-radius: 60px;
+    position: absolute;
+    top: 2%;
+
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.logo {
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 18px;
+
+}
+
+.menu ul li a {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.menu ul li a:hover {
+    transition: 1.1;
+    opacity: 0.5;
+}
+
+.btn {
+    background-color: #3ec4e655;
+    border: 1px solid;
+    border-radius: 26px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: 0.2S;
+}
+
+/* CART STYE START HERE */
+.titl {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+
+.all {
+    display: flex;
+    gap: 20px;
+}
+
+.carts {
+    height: auto;
+    width: 100%;
+    max-width: 360px;
+    background-color: rgba(225, 225, 225, 0.127);
+    backdrop-filter: blur(7px);
+    padding: 12px;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    transition: transform 0.3s ease;
+}
+
+.carts h1 {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 400px;
+}
+
+.carts p {
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px;
+    color: lightskyblue;
+}
+
+.bt {
+    font-size: 25px;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: #3ec4e655;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.bt:hover {
+    transform: scale(1.15);
+}
+
