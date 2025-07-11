@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+section {
+    background-image: url(/business-financials/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    position: fixed;
+    top: 3%;
+    height: 7vh;
+    width: 35%;
+    justify-content: space-around;
+    gap: 20px;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 0 0px;
+    background-color: rgba(248, 248, 248, 0.126);
+    backdrop-filter: blur(7px);
+}
+ 
+nav a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+nav .a {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(65, 65, 65, 1) 54%, rgba(0, 0, 0, 1) 100%);
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dev {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dev span {
+    font-size: 13px;
+    color: aliceblue;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(65, 65, 65, 1) 54%, rgba(0, 0, 0, 1) 100%);
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+pre {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
+pre span {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    letter-spacing: normal;
+    font-weight: 200;
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h5{
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+button{
+    font-size: 20px;
+    color: aliceblue;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(65, 65, 65, 1) 54%, rgba(0, 0, 0, 1) 100%);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.shot{
+    position: absolute;
+    bottom: 11%;
+    height:7vh ;
+    gap: 20px;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.shot a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.shot .a {
+    backdrop-filter: blur(7px);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
